@@ -84,7 +84,7 @@ private fun keyboardAsciiInput(robot: Robot, str: String) {
     // 判断是否存在非ascii字符
     str.any { it.code > 127 }.apply { if (this) throw Exception("not support non-ascii char") }
     for (char in str) {
-        val arr = KeyMap.get(char);
+        val arr = KeyMap.get(char)
         for (i in arr) {
             robot.keyPress(i)
         }
