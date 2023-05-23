@@ -1,0 +1,17 @@
+[
+  {
+    "desc": "baidu",
+    "values": [
+      "@browser http://baidu.com",
+      "@now yyyy-MM-dd"
+      "@keyEvent VK_ENTER"
+    ]
+  },
+  {
+    "desc": "hello world",
+    "values": [
+      "@ascii hello world",
+      "@now yyyy-MM-dd"
+    ]
+  }
+]
