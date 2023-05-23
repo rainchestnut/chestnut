@@ -39,7 +39,7 @@ Chestnut 是一个基于 Compose for Desktop API 的工具，通过模拟键盘�
 
 ### 自定义:
 
-这些特性可以以任意顺序组合。例如，您可以使用快速输入快捷键打开 `baidu.com`，输入当前时间，然后按回车进行搜索。
+这些特性可以以任意顺序组合。例如，使用快速输入快捷键打开 `baidu.com`，输入当前时间，然后按回车进行搜索。
 
 **快捷键配置:** 该工具允许通过 JSON 格式配置文件自定义快捷键。配置文件路径为 `~/AppData/Local/chestnut/config/quick_input.json`。
 
